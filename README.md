@@ -138,3 +138,32 @@ The shared graph state is planned to contain:
 The graph state carries complaint details, analysis results, response drafts, and review feedback between nodes. Human review prevents a rejected or unapproved draft from being marked ready to send.
 
 The implementation will be added and tested incrementally in the following tasks.
+
+
+## Week 1 - Day 4: Load Sample Data
+
+### Dataset
+
+Created `data/sample_dataset.csv` containing 10 illustrative customer complaints and 5 columns:
+
+- `complaint`: Original customer message.
+- `contact_count`: Number of reported support contacts.
+- `issue`: Complaint category.
+- `sentiment`: Positive, Neutral, or Negative.
+- `priority`: Example priority label.
+
+### Data Loading and Inspection
+
+Created `load_sample_data.py` to load the CSV using pandas and inspect its structure.
+
+**Verified output:**
+- Rows: 10
+- Columns: 5
+- Data types: 4 text columns and 1 integer column
+- Preview: First 5 rows displayed successfully
+
+### Evidence
+
+Screenshot: `screenshots/Day4_Sample_Data_Load.png`
+
+**Note:** The dataset contains illustrative examples and labels. The priority and sentiment values have not been generated or validated by a trained AI model.
