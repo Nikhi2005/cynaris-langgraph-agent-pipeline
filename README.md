@@ -31,35 +31,44 @@ LangGraph was successfully imported and the output was:
 
 #### 1. Top-Level Project Structure
 
+```text
 ai-ml-internship/
-├── screenshots/
-│   └── Day1_LangGraph_Setup.png
-├── .gitignore
-└── README.md
+|-- data/
+|   |-- sample_dataset.csv
+|-- screenshots/
+|   |-- Day1_LangGraph_Setup.png
+|   |-- Day4_Sample_Data_Load.png
+|-- .gitignore
+|-- load_sample_data.py
+|-- README.md
+```
 
 #### 2. Folder and File Descriptions
 
+- `data/` — Stores the sample customer complaint dataset.
 - `screenshots/` — Stores screenshots documenting project progress.
-- `.gitignore` — Specifies files and folders Git should ignore.
-- `README.md` — Contains the project objective, setup information, and progress documentation.
-- `venv/` — Python virtual environment containing installed dependencies. Excluded from Git.
-- `.git/` — Git repository metadata used for version control.
+- `data/sample_dataset.csv` — Contains sample complaints and their associated details.
+- `load_sample_data.py` — Loads the CSV using pandas and displays its dimensions, column data types, and first five rows.
+- `.gitignore` — Specifies files and folders Git should ignore, including the virtual environment and Python cache files.
+- `README.md` — Documents the project objective, setup, workflow, and daily progress.
+- `venv/` — Contains the Python virtual environment and installed dependencies. Excluded from Git.
+- `.git/` — Stores Git version-control metadata.
 
 #### 3. Main Entry Point
 
-No main application entry-point file, such as `main.py` or `app.py`, has been created yet.
+A dedicated LangGraph application entry point has not yet been created. The existing `load_sample_data.py` script is a standalone data-loading utility, not the main agent pipeline.
 
 #### 4. Key Python Modules
 
-No application-specific Python modules have been created yet. The three key modules will be documented when they exist.
+The current Python script is `load_sample_data.py`. It loads the sample CSV using pandas and displays the row count, column count, data types, and first five records. The LangGraph workflow modules will be documented as they are implemented.
 
 #### 5. Configuration and Environment Variables
 
-No project-specific configuration file or environment variable setup has been identified yet.
+The project currently uses a Python virtual environment and a `.gitignore` file. No separate application configuration file or required environment variables have been implemented yet.
 
 #### Summary
 
-The project setup and version control are complete. The current repository contains project documentation and screenshots. Application code and its configuration are yet to be created.
+The project setup, initial workflow documentation, and sample-data loading script are in place. The Day 2 structure now reflects the current repository files. The dedicated LangGraph application pipeline remains to be implemented.
 
 
 ## Week 1 - Day 3: Map Data Flow in LangGraph
