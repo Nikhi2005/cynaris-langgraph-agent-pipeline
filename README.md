@@ -176,3 +176,25 @@ Created `load_sample_data.py` to load the CSV using pandas and inspect its struc
 Screenshot: `screenshots/Day4_Sample_Data_Load.png`
 
 **Note:** The dataset contains illustrative examples and labels. The priority and sentiment values have not been generated or validated by a trained AI model.
+
+## Week 1 - Day 5: First LangGraph Workflow
+
+### Objective
+Created and executed a LangGraph workflow to process a sample customer complaint through three connected nodes.
+
+### Workflow Nodes
+1. **Analyze Complaint:** Displays the complaint, issue category, and existing sentiment label.
+2. **Set Priority:** Displays the number of previous support contacts and the existing priority label.
+3. **Draft Response:** Generates a response draft based on the complaint's issue and sentiment.
+
+### Execution Results
+The workflow was tested using the first record in `data/sample_dataset.csv`. The complaint concerned an unresolved payment issue following three previous support contacts. The dataset labels the sentiment as Negative and the priority as High.
+
+All three nodes executed successfully, and the final state was saved to `results/week1_results.csv`.
+
+### Output and Evidence
+- Script: `main.py`
+- Results: `results/week1_results.csv`
+- Screenshot: `screenshots/Day5_LangGraph_Workflow.png`
+
+**Note:** The workflow uses existing dataset labels rather than independently predicting sentiment or priority. The generated response is a draft and has not been approved by a human reviewer.
