@@ -1,0 +1,11 @@
+complaint,contact_count,issue,sentiment,priority
+"I contacted support three times, but my payment issue is still unresolved.",3,Payment issue,Negative,High
+"How can I update my account email address?",1,Account update,Neutral,Low
+"I was charged twice for the same order.",1,Duplicate payment,Negative,High
+"Thank you for resolving my delivery question.",1,Delivery query,Positive,Low
+"My refund has been delayed for two weeks, and nobody has replied.",2,Refund delay,Negative,High
+"The app is working well after the latest update.",1,App feedback,Positive,Low
+"Please explain the extra fee on my bill.",1,Billing query,Neutral,Medium
+"I cannot log in even after resetting my password.",2,Login issue,Negative,Medium
+"Support resolved my issue quickly. Thank you.",2,Support feedback,Positive,Low
+"My account was locked and I cannot access my funds.",2,Account access,Negative,High
