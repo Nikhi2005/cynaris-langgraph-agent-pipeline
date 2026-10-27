@@ -1,2 +1,2 @@
-complaint,issue,sentiment,contact_count,priority,draft_response
-"I contacted support three times, but my payment issue is still unresolved.",Payment issue,Negative,3,High,We're sorry for the inconvenience with your payment issue. We understand your concern and appreciate your patience. Our support team will review your issue and assist you further.
+complaint,issue,sentiment,contact_count,priority,draft_response,review_status,review_attempts
+"I contacted support three times, but my payment issue is still unresolved.",Payment issue,Negative,3,High,"We apologize for the inconvenience regarding your payment issue. Your concern is important to us, and our support team will review it again.",rejected,3
